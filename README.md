@@ -31,6 +31,7 @@ This Python script processes subtitle files, translates them from English to Dut
 <br>
 Python: Make sure Python 3.x is installed.
 <br>
+
 ## Installation Instructions
 
 Clone the repository or download the script:

@@ -44,7 +44,7 @@ cd Eng2NL_SRT_Translator
 ```
 <br>
 
-### Run the script:
+## Run the script:
 
 After installing the necessary dependencies, you can run the script. It will prompt you to enter the directory where your subtitle files are located.
 
@@ -97,6 +97,8 @@ CLAIRE: Previously on The Good Doctor...
 You don't want me to do anything.
 Output: The.Good.Doctor.S04E01.1080p.WEBRip.x265-RARBG.nld.srt
 ```
+
+Example Output:
 
 ```plaintext
 Code kopiëren

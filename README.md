@@ -42,6 +42,7 @@ Clone the repository or download the script:
 git clone https://github.com/MijsBjornPXL/Eng2NL_SRT_Translator.git
 cd Eng2NL_SRT_Translator
 ```
+<br>
 
 ### Run the script:
 

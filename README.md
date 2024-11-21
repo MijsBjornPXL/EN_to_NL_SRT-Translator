@@ -69,6 +69,7 @@ Process each file in chunks.
 Translate the text content from English to Dutch.
 Clean up the timestamps.
 Save the new file with the .nld.srt extension in the same folder.
+<br></br>
 Example Input:
 
 ```plaintext

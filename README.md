@@ -60,7 +60,6 @@ Example Windows:
 python Translate_Win_NL.py
 ```
 
-<br>
 
 ### Directory Structure:
 

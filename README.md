@@ -30,7 +30,9 @@ This Python script processes subtitle files, translates them from English to Dut
    ```bash
    pip install translatepy
 <br>
-Python: Make sure Python 3.x is installed.
+
+**_Python: Make sure Python 3.x is installed._**
+
 <br>
 
 ## Installation Instructions
@@ -58,6 +60,7 @@ python Translate_NL.py
 ```bash
 python Translate_Win_NL.py
 ```
+
 <br>
 
 ### Directory Structure:

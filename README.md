@@ -70,7 +70,7 @@ Translate the text content from English to Dutch.
 Clean up the timestamps.
 Save the new file with the .nld.srt extension in the same folder.
 Example Input:
-Input: The.Good.Doctor.S04E01.1080p.WEBRip.x265-RARBG.en.srt
+
 ```plaintext
 1
 00:00:01,202 --> 00:00:02,436

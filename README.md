@@ -28,40 +28,47 @@ This Python script processes subtitle files, translates them from English to Dut
    pip install translatepy
 
 
-
 Python: Make sure Python 3.x is installed.
-Installation Instructions
+
+## Installation Instructions
+
 Clone the repository or download the script:
 
-bash
-Code kopiëren
+```bash
 git clone https://github.com/yourusername/SubtitleTranslationScript.git
 cd SubtitleTranslationScript
-Install dependencies:
+```
+
+## Install dependencies:
 
 Install translatepy by running:
 
-bash
-Code kopiëren
+```bash
 pip install translatepy
-Run the script:
+```
+
+## Run the script:
 
 After installing the necessary dependencies, you can run the script. It will prompt you to enter the directory where your subtitle files are located.
 
 Example:
 
-bash
-Code kopiëren
+```bash
 python SubtitleTranslationScript.py
-Directory Structure:
+```
+
+## Directory Structure:
 
 The script processes files in the given directory and renames them as follows:
 
 .en.srt files will be renamed to .nld.srt after translation.
 .srt files will be renamed to .nld.srt after translation.
-Example Use Case
+
+## Example Use Case
+
 Place all the .en.srt and .srt subtitle files you want to translate in the same folder.
 Run the script and provide the source directory.
+
 The script will:
 Process each file in chunks.
 Translate the text content from English to Dutch.
@@ -69,8 +76,7 @@ Clean up the timestamps.
 Save the new file with the .nld.srt extension in the same folder.
 Example Input:
 Input: The.Good.Doctor.S04E01.1080p.WEBRip.x265-RARBG.en.srt
-plaintext
-Code kopiëren
+```plaintext
 1
 00:00:01,202 --> 00:00:02,436
 CLAIRE: Previously on The Good Doctor...
@@ -79,7 +85,9 @@ CLAIRE: Previously on The Good Doctor...
 00:00:02,570 --> 00:00:04,538
 You don't want me to do anything.
 Output: The.Good.Doctor.S04E01.1080p.WEBRip.x265-RARBG.nld.srt
-plaintext
+```
+
+```plaintext
 Code kopiëren
 1
 00:00:01,202 --> 00:00:02,436
@@ -88,23 +96,18 @@ Claire: Eerder op De Goede Dokter...
 2
 00:00:02,570 --> 00:00:04,538
 Je wilt niet dat ik iets doe.
-Troubleshooting
+```
+
+## Troubleshooting
+
 If you encounter any issues while running the script, ensure that:
 
 The translatepy library is installed.
 You have the necessary permissions to read and write to the specified directories.
 If running on Windows, make sure your terminal or IDE supports UTF-8 encoding.
-License
+
+## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-vbnet
-Code kopiëren
-
-### Steps to upload to GitHub:
-1. Create a new repository on GitHub (if you haven't already).
-2. Go to the root folder of your project where the script is located.
-3. Add the `README.md` file to your project:
-   ```bash
-   echo "# English to Dutch Subtitle Translation and File Renaming Script" > README.md
-Paste the content above into the README.md file. 4. Commit and push the changes to your repository:
 

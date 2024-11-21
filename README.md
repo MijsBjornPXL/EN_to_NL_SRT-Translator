@@ -98,7 +98,6 @@ Output: The.Good.Doctor.S04E01.1080p.WEBRip.x265-RARBG.nld.srt
 Example Output:
 
 ```plaintext
-Code kopiëren
 1
 00:00:01,202 --> 00:00:02,436
 Claire: Eerder op De Goede Dokter...

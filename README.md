@@ -5,7 +5,7 @@
 
 This Python script processes subtitle files, translates them from English to Dutch, and renames the resulting files accordingly. It handles `.en.srt` and `.srt` files and uses the `translatepy` library to perform the translation.
 
-### Features
+## Features
 
 - Processes `.en.srt` and `.srt` subtitle files in the specified directory.
 - Translates the subtitle content from English to Dutch using the `translatepy` library.
@@ -22,7 +22,7 @@ This Python script processes subtitle files, translates them from English to Dut
 - `re` (comes with Python) for regular expression operations.
 
 
-### Dependencies
+## Dependencies
 
 1. **translatepy**: A Python library for translation.
 
@@ -40,14 +40,6 @@ Clone the repository or download the script:
 ```bash
 git clone https://github.com/yourusername/SubtitleTranslationScript.git
 cd SubtitleTranslationScript
-```
-
-## Install dependencies:
-
-Install translatepy by running:
-
-```bash
-pip install translatepy
 ```
 
 ## Run the script:

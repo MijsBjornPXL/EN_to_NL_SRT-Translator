@@ -42,7 +42,7 @@ git clone https://github.com/MijsBjornPXL/Eng2NL_SRT_Translator.git
 cd Eng2NL_SRT_Translator
 ```
 
-## Run the script:
+### Run the script:
 
 After installing the necessary dependencies, you can run the script. It will prompt you to enter the directory where your subtitle files are located.
 
@@ -52,7 +52,7 @@ Example:
 python SubtitleTranslationScript.py
 ```
 
-## Directory Structure:
+### Directory Structure:
 
 The script processes files in the given directory and renames them as follows:
 

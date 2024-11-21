@@ -84,8 +84,6 @@ Save the new file with the .nld.srt extension in the same folder.
 
 Example Input:
 
-<br>
-
 ```plaintext
 1
 00:00:01,202 --> 00:00:02,436

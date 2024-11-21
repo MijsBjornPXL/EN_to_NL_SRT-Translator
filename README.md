@@ -23,7 +23,7 @@ This Python script processes subtitle files, translates them from English to Dut
 
 ## Dependencies
 
-- **translatepy**: A Python library for translation.
+- **translatepy:** A Python library for translation.
 
    Install it with pip:
    ```bash
@@ -47,13 +47,13 @@ cd Eng2NL_SRT_Translator
 
 After installing the necessary dependencies, you can run the script. It will prompt you to enter the directory where your subtitle files are located.
 
-Example Linux:
+**_Example Linux:_**
 
 ```bash
 python Translate_NL.py
 ```
 
-Example Windows:
+**_Example Windows:_**
 
 ```bash
 python Translate_Win_NL.py

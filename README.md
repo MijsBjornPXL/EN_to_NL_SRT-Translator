@@ -47,7 +47,7 @@ cd Eng2NL_SRT_Translator
 
 After installing the necessary dependencies, you can run the script. It will prompt you to enter the directory where your subtitle files are located.
 
-<u>**Example Linux:**</u>
+<u>Example Linux:</u>
 
 ```bash
 python Translate_NL.py

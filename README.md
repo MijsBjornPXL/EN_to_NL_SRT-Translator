@@ -33,8 +33,6 @@ This Python script processes subtitle files, translates them from English to Dut
 
 **_Python: Make sure Python 3.x is installed._**
 
-<br>
-
 ## Installation Instructions
 
 Clone the repository or download the script:
@@ -43,7 +41,6 @@ Clone the repository or download the script:
 git clone https://github.com/MijsBjornPXL/Eng2NL_SRT_Translator.git
 cd Eng2NL_SRT_Translator
 ```
-<br>
 
 ## Run the script:
 
@@ -60,7 +57,6 @@ python Translate_NL.py
 ```bash
 python Translate_Win_NL.py
 ```
-
 <br>
 
 ### Directory Structure:
@@ -84,7 +80,7 @@ Clean up the timestamps.
 Save the new file with the .nld.srt extension in the same folder.
 <br>
 
-Example Input:
+**_Example Input:_**
 
 ```plaintext
 1
@@ -97,7 +93,7 @@ You don't want me to do anything.
 Output: The.Good.Doctor.S04E01.1080p.WEBRip.x265-RARBG.nld.srt
 ```
 
-Example Output:
+**_Example Output:_**
 
 ```plaintext
 1

@@ -23,15 +23,13 @@ This Python script processes subtitle files, translates them from English to Dut
 
 ## Dependencies
 
-1. **translatepy**: A Python library for translation.
+- **translatepy**: A Python library for translation.
 
    Install it with pip:
    ```bash
    pip install translatepy
 
-<br>
-<u>Python: Make sure Python 3.x is installed.</u>
-<br>
+Python: Make sure Python 3.x is installed.
 <br>
 
 ## Installation Instructions

@@ -1,7 +1,7 @@
 # Eng2NL_SRT_Translator
-<br></br>
+<br>
 ### English to Dutch Subtitle Translation and File Renaming Script
-<br></br>
+<br>
 This Python script processes subtitle files, translates them from English to Dutch, and renames the resulting files accordingly. It handles `.en.srt` and `.srt` files and uses the `translatepy` library to perform the translation.
 
 ## Features
@@ -28,9 +28,9 @@ This Python script processes subtitle files, translates them from English to Dut
    Install it with pip:
    ```bash
    pip install translatepy
-<br></br>
+<br>
 Python: Make sure Python 3.x is installed.
-<br></br>
+<br>
 ## Installation Instructions
 
 Clone the repository or download the script:
@@ -49,7 +49,7 @@ Example:
 ```bash
 python SubtitleTranslationScript.py
 ```
-<br></br>
+<br>
 ### Directory Structure:
 
 The script processes files in the given directory and renames them as follows:
@@ -57,7 +57,7 @@ The script processes files in the given directory and renames them as follows:
 .en.srt files will be renamed to .nld.srt after translation.
 .srt files will be renamed to .nld.srt after translation.
 
-<br></br>
+<br>
 ## Example Use Case
 
 Place all the .en.srt and .srt subtitle files you want to translate in the same folder.
@@ -68,9 +68,9 @@ Process each file in chunks.
 Translate the text content from English to Dutch.
 Clean up the timestamps.
 Save the new file with the .nld.srt extension in the same folder.
-<br></br>
+<br>
 Example Input:
-<br></br>
+<br>
 
 ```plaintext
 1

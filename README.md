@@ -28,6 +28,7 @@ This Python script processes subtitle files, translates them from English to Dut
    Install it with pip:
    ```bash
    pip install translatepy
+
 <br>
 Python: Make sure Python 3.x is installed.
 <br>
@@ -51,6 +52,7 @@ Example:
 python SubtitleTranslationScript.py
 ```
 <br>
+
 ### Directory Structure:
 
 The script processes files in the given directory and renames them as follows:
@@ -59,6 +61,7 @@ The script processes files in the given directory and renames them as follows:
 .srt files will be renamed to .nld.srt after translation.
 
 <br>
+
 ## Example Use Case
 
 Place all the .en.srt and .srt subtitle files you want to translate in the same folder.
@@ -70,7 +73,9 @@ Translate the text content from English to Dutch.
 Clean up the timestamps.
 Save the new file with the .nld.srt extension in the same folder.
 <br>
+
 Example Input:
+
 <br>
 
 ```plaintext

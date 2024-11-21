@@ -1,5 +1,4 @@
 # Eng2NL_SRT_Translator
-<br>
 
 ### English to Dutch Subtitle Translation and File Renaming Script
 

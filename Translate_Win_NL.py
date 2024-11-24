@@ -93,21 +93,16 @@ def clean_translated_file(output_file):
     print(f"Cleaned the timestamps in the translated file: {output_file}")
 
 # Function to copy the translated file, rename it, and clear test.srt
-def copy_and_rename(output_file, source_directory, original_file_path):
-    # Extract the original filename from output_file
-    original_filename = os.path.basename(original_file_path)  # Get the original filename
-    
+def copy_and_rename(output_file, source_directory, original_file):
+    # Extract the original filename from the source file (without the directory path)
+    original_filename = os.path.basename(original_file)
+
     # Construct the new filename by replacing 'en.srt' with 'nld.srt'
-    if original_filename.endswith(".en.srt"):
-        # If it's an en.srt file, change to nld.srt
-        new_filename = original_filename.replace('.en.srt', '.nld.srt')
-    elif original_filename.endswith(".srt"):
-        # If it's a regular .srt file, rename it to nld.srt
-        new_filename = original_filename.replace('.srt', '.nld.srt')
+    new_filename = original_filename.replace('.en.srt', '.nld.srt')  # We are renaming test.srt to nld.srt
     
     # Define the full path to copy the file to
     new_file_path = os.path.join(source_directory, new_filename)
-    
+
     # Copy the file to the source directory with the new name
     shutil.copy(output_file, new_file_path)
     print(f"Copied and renamed file to: {new_file_path}")
@@ -126,18 +121,18 @@ def main():
         print(f"Source directory '{source_directory}' does not exist.")
         return
 
-    # Loop through all .srt and .en.srt files in the directory
+    # Loop through all .srt files in the directory
     for file_path in Path(source_directory).rglob("*"):
-        # Process files that end with .srt or .en.srt
-        if str(file_path).endswith(".srt") or str(file_path).endswith(".en.srt"):  
-            # Ensure we are not processing the renamed files yet
+        if str(file_path).endswith(".en.srt"):  # Process only .en.srt files
+            # Open the file and read lines to calculate total lines
+            with open(file_path, 'r') as file:
+                lines = file.readlines()
+            total_lines = len(lines)  # Get total number of lines in the file
+
             chunk_start = 0  # Start at the first chunk (lines 1-100)
-            is_first_chunk = True  # Indicate the first chunk
-            
-            while chunk_start < 3305:  # Total number of lines, adjust this if the number changes
-                process_chunk(str(file_path), chunk_start, is_first_chunk=is_first_chunk)
+            while chunk_start < total_lines:  # Continue until the last line
+                process_chunk(str(file_path), chunk_start)
                 chunk_start += 100  # Increment to process the next 100 lines
-                is_first_chunk = False  # After the first chunk, don't apply sleep anymore
 
             # After processing all chunks, clean the timestamps in the output file
             output_file = "/tmp/SRT_Translate/test.srt"

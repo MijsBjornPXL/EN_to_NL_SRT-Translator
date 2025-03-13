@@ -131,8 +131,8 @@ def main():
     global progress_var, root
 
     root = tk.Tk()
-    root.title("Subtitle Translator")
-    root.geometry("380x150")
+    root.title("Subtitle SRT Translator - English to Dutch")
+    root.geometry("450x150")
 
     select_button = tk.Button(root, text="Select Source Directory", command=select_directory)
     select_button.pack(pady=20)

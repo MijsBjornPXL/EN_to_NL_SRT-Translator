@@ -2,6 +2,10 @@
 
 ### English to Dutch Subtitle Translator
 
+Translate English SRT files to Dutch!
+
+Simple, fast, hassle-free! (No API-keys required!)
+
 This Python script processes subtitle files, translates them from English to Dutch, and renames the resulting files accordingly. It handles `.en.srt` and `.srt` files and uses the `translatepy` library to perform the translation.
 <br>
 

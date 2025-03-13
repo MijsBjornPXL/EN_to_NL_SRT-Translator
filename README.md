@@ -2,7 +2,7 @@
 
 ### English to Dutch Subtitle Translator
 
-Translate English SRT files to Dutch!
+Translate English SRT files to Dutch.
 
 Simple, fast, hassle-free! (No API-keys required!)
 
